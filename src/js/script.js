@@ -1,3 +1,4 @@
+import '../styles/style.scss'
 import { get } from './storage.js'
 import Keyboard from './Keyboard.js'
 
