@@ -1,5 +1,23 @@
-$color: green;
-
 body {
-  background-color: $color;
+  background-color: #eee;
+  font-size: 16px;
+}
+
+.keyboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.keyboard-row {
+  display: grid;
+}
+
+.keyboard__key {
+  position: relative;
+  display: inline-block;
+  // background: #333;
+  text-align: center;
+  // color: #eee;
+  padding: 15px 30px;
+  border: 1px solid #000;
 }
